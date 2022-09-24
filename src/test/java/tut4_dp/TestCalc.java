@@ -11,5 +11,10 @@ public void testsay(){
     Calc d = new Calc();
     int ret = d.add(1,2);
     Assertions.assertEquals(3,ret);
+}@Test
+public void testsay2(){
+    Calc t = new Calc();
+    int res = t.subtract(1,2);
+    Assertions.assertEquals(-1,res);
 }
 }
